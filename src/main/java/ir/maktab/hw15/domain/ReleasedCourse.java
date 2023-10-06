@@ -9,7 +9,6 @@ import lombok.ToString;
 @Entity
 @Getter
 @Setter
-@ToString
 @Table(name = "released_course")
 public class ReleasedCourse extends BaseEntity<Long> {
 

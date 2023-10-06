@@ -12,7 +12,6 @@ import ir.maktab.hw15.domain.enums.CourseState;
 @Entity
 @Getter
 @Setter
-@ToString
 @Table(name = "student_taken_course")
 public class StudentTakenCourse extends BaseEntity<Long> {
     @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.DETACH})

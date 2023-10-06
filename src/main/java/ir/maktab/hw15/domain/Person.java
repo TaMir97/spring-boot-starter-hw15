@@ -8,7 +8,6 @@ import lombok.ToString;
 
 @Setter
 @Getter
-@ToString
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(discriminatorType = DiscriminatorType.STRING)
